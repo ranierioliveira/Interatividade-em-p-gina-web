@@ -11,7 +11,6 @@ let colegio = {
     obterDiretor(){
         return this.nomeDiretor;
     }
-
 };
 
 let obter = colegio.obterDiretor();
