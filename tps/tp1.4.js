@@ -16,5 +16,5 @@ let colegio = {
 let obter = colegio.obterDiretor();
 console.log(obter);
 
-// tp1.5
+
 
