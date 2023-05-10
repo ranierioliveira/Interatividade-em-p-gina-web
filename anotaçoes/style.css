@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tamanho{
+    font-size: 50px;
+    font-style: italic;
+}
+.cor{
+    color: green;
+}
+.mudaTudo{
+    background-color: steelblue;
+    color: white;
+    font-size: 60px;
+}
