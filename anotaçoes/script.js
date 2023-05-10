@@ -1,8 +1,4 @@
-let meuTitulo = document.querySelector('h1');
+const corpo = document.querySelector('.corpo');
+const titulo = document.querySelector('.titulo');
 
-// meuTitulo.setAttribute('style', 'font-size: 38px; background-color: purple');
-
-meuTitulo.classList.add('cor');
-meuTitulo.classList.add('tamanho');
-meuTitulo.classList.replace('tamanho', 'mudaTudo')
-console.log(meuTitulo);
+titulo.addEventListener('click', () => corpo.classList.toggle('dark'));

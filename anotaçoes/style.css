@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.dark{
+    background: lightblue;
+}
 .tamanho{
     font-size: 50px;
     font-style: italic;
