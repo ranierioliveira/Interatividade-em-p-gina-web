@@ -1,4 +1,10 @@
-const corpo = document.querySelector('.corpo');
-const titulo = document.querySelector('.titulo');
+let conteudo = document.querySelector('.conteudo');
+let novaLargura = conteudo.clientWidth + 2;
+let novaAltura = conteudo.clientHeight + 2;
+  
+conteudo.addEventListener('click', clicar);
 
-titulo.addEventListener('click', () => corpo.classList.toggle('dark'));
+function clicar(){
+    conteudo.style.width = novaLargura + "px"
+    conteudo.style.height = novaAltura + "px"
+}

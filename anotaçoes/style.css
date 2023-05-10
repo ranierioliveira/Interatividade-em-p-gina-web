@@ -5,18 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.dark{
-    background: lightblue;
-}
-.tamanho{
-    font-size: 50px;
-    font-style: italic;
-}
-.cor{
-    color: green;
-}
-.mudaTudo{
-    background-color: steelblue;
-    color: white;
-    font-size: 60px;
-}
+.conteudo{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid red;
+  }
