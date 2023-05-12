@@ -5,9 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.conteudo{
-    width:100px;
-    height: 100px;
+table{
+    border-collapse: collapse;
     text-align: center;
-    border: 3px solid red;
-  }
+    width: 100px;
+}
+      
+.vermelho{
+    background-color: red;
+}
+      
+.azul{
+    background-color: blue;
+}
