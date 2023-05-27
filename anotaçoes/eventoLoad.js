@@ -17,3 +17,40 @@ botao.addEventListener('click', () => {
 function carregar(){
     meuBody.style.backgroundColor = 'steelblue';
 }
+
+// <ul>
+//     <li class="titulo">Listinha</li>
+//     <li class="item-menu">Caderno</li>
+//     <li class="item-menu">Lápis de cor</li>
+//   </ul>
+//   <button>Inserir</button>
+//   <div class="mensagem"></div>
+
+// ul{
+//     list-style-type: none;
+//   }
+//   li.titulo{
+//     color: white;
+//     font-size: 30px;
+//     margin: auto;
+//     width: 300px;
+//     text-align: center;
+//   }
+//   li.item-menu{
+//     background-color: lightsteelblue;
+//     color: indigo;
+//     padding: 10px;
+//     width: 300px;
+//     margin: auto;
+//     border:1px solid indigo;
+//   }
+//   button{
+//     background-color: lightsteelblue;
+//     color: indigo;
+//     padding: 10px;
+//     width: 300px;
+//     margin: auto;
+//     border:1px solid indigo;
+//     display: block;
+//     border-radius: 8px;
+//   } 
