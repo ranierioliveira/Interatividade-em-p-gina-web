@@ -12,7 +12,7 @@ botao.addEventListener('click', () => {
     } else {
         return;
     }
-} );
+});
 
 function carregar(){
     meuBody.style.backgroundColor = 'steelblue';

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    border: 3px double steelblue;
+    margin: 50px;
+}
+#dragme{
+    width: 60px;
+    height: 60px;
+    border: 1px solid maroon;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
