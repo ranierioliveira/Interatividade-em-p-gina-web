@@ -21,7 +21,7 @@ function soltar(){
     //identifica pela classe que o elemento ganhou
     const elementoArrastado = document.querySelector(".arrastando");
 
-    this.appendChild(elementoArrastado);
+    this.appendChild(elementoArrastado);  
 }
 
 function saiu(){
