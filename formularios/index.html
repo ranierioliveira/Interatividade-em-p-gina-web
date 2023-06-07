@@ -10,14 +10,44 @@
 <body>
     <h1>Formulário em páginas web</h1>
     <form action="" method="post">
+        <input type="hidden" name="session_id" id="" value="rbt-2000" >
+
         <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required maxlength="3">
         </div>
+
         <div class="form-group">
-            <label for="email">email:</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu nome" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
         </div>
+
+        <div class="form-group">
+            <p>Escolha seu ponto de carne favorito: </p>
+            <div>
+                <input type="radio" name="pontos-das-carnes" id="ao-ponto" value="ao-ponto">
+                <label for="ao-ponto">Ao ponto</label>
+            </div>
+
+            <div>
+                <input type="radio" name="pontos-das-carnes" id="mal-passado" value="mal-passado">
+                <label for="mal-passado">Mal passado</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <p>Escolha seu ponto de corte favorito: </p>
+            <div>
+                <input type="checkbox" name="corte-tradicional" id="tradicional" value="Cortes tradicionais">
+                <label for="tradicional">tradicional</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="corte-exotico" id="exotico" value="exotico">
+                <label for="exotico">Exótico</label>
+            </div>
+        </div>
+
+        
         <div class="form-group">
             <input type="submit" value="Enviar">
         </div>
