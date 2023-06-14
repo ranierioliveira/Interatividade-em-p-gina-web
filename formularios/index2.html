@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+
+        <div class="lista">
+            <label for="batata">Tipo preferido de batata:</label>
+            <input type="text" list="batatas" name="batata" id="batata">
+            <datalist id="batatas">
+                <option value="fritas">Batata frita</option>
+                <option value="cozidas">Batata cozida</option>
+                <option value="recheada">Batata recheada</option>
+                <option value="pure">Purê de batata</option>
+            </datalist>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <p class="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
